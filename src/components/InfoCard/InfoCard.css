@@ -1,0 +1,22 @@
+.info-card {
+    background-color: #EAE9F4;
+    border-radius: 8px;
+    width: 180px;
+    height: 90px;
+    text-align: center;
+    border-left: 10px solid #9D9AC9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-card-value {
+    font-size: 39px;
+    font-weight: 800;
+    margin: 0;
+    color: #08025A;
+}
+.info-card-title {
+    font-size: 12px;
+    margin: 3px 0px;
+    color: #08025A;
+}

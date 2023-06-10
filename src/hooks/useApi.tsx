@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_ENDPOINT = 'https://api.github.com';
+const API_ENDPOINT = 'https://run.mocky.io/v3/';
 
 const useAPI = () => {
     return axios.create({

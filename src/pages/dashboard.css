@@ -1,0 +1,29 @@
+.graph-card {
+    width: 700px;
+    height: 350px;
+    margin: 15px;
+
+
+}
+.graph-container {
+    height: 300px;
+    background-color: #EAE9F4;
+    padding: 10px;
+    border-radius: 0px 0px 22px 22px;
+
+}
+.cards {
+    display: flex;
+}
+.graph-header {
+    background-color: #9D9AC9;
+    border-radius: 22px 22px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.info-cards-container {
+    display: flex;
+    justify-content: space-around;
+}
