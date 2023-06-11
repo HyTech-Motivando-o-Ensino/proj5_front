@@ -32,7 +32,7 @@ const Dashboard = () => {
         const api = useAPI();
         try {
             setLoading(true);
-            const { data } = await api.get('ff4141a8-08b6-4cc8-a33e-698188a00e85')
+            const { data } = await api.get('/api/dashboard/')
             setDashboardData(data)
             setLoading(false);
         } catch (error) {
