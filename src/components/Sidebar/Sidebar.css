@@ -1,0 +1,89 @@
+.sidebar {
+    width: 280px;
+    background-color: #EFEEF9;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text1 {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 28px;
+    color: #0B0378
+}
+
+.text2 {
+    color: #FF6002;
+}
+
+.mark {
+    width: 235px;
+    height: 45px;
+    background: #6D68AE;
+    border-radius: 0px 8px 8px 0px;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    margin-top: 110px;
+}
+
+.button-dashboard {
+    background: #6D68AE;
+    width: 148px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 8px;
+    padding: 10px 16px 10px 12px;
+    background: #6D68AE;
+    margin: 10px;
+    margin-right: 25px;
+}
+
+.text-chosen {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #F9F9F9;
+}
+
+.text-other {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    color: #08025A;
+}
+
+.button-container {
+    width: 148px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 8px;
+    padding: 10px 16px 10px 12px;
+    background-color: #EFEEF9;
+    margin: 10px;
+    margin-right: 25px;
+}
+
+.button-download {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #FF881D;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    margin-top: 400px;
+}
