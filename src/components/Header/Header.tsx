@@ -4,6 +4,7 @@ import SearchButton from '../../assets/searchButton.svg';
 import FunilIcon from '../../assets/funil.svg';
 import NotificationsIcon from '../../assets/notifications.svg';
 import ReloadIcon from '../../assets/reload.svg';
+import UserIcon from '../../assets/user.svg'
 
 const Header = () => {
 
@@ -21,6 +22,7 @@ const Header = () => {
             <div className="header--icons">
                 <img src={FunilIcon} alt="" />
                 <img src={NotificationsIcon} alt="" />
+                <img src={UserIcon} alt="" />
             </div>
         </div>
     )

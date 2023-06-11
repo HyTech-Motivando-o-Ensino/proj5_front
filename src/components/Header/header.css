@@ -19,7 +19,7 @@
 .header--icons {
     display: flex;
     justify-content: space-around;
-    width: 100px;
+    width: 220px;
 }
 .reload {
     color: #3C3593;
