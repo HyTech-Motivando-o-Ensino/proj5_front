@@ -45,3 +45,7 @@
 .dashboard-page {
     display: flex;
 }
+
+.page-title {
+    margin-left: 15px;
+}

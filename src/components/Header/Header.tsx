@@ -1,4 +1,4 @@
-import './Header.css'
+import './header.css'
 
 import SearchButton from '../../assets/searchButton.svg';
 import FunilIcon from '../../assets/funil.svg';

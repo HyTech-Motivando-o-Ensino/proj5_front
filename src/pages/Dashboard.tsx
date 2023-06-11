@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import BarChart from '../components/Graphs/BarChart';
 import useAPI from '../hooks/useApi';
-import './Dashboard.css';
+import './dashboard.css';
 import PieChart from '../components/Graphs/PieChart';
 import InfoCard from '../components/InfoCard/InfoCard';
 import BarCanvasChart from '../components/Graphs/BarCanvasChart';
@@ -48,9 +48,10 @@ const Dashboard = () => {
                 <Sidebar />
             </div>
             <div className="content-side">
-                <Header />
                 {!loading ? (
                     <div>
+                        <Header />
+                        <h1 className="page-title">Dashboard</h1>
                         <div className="info-cards-container">
                             <InfoCard
                                 title="Orientações no último triênio"
