@@ -1,5 +1,5 @@
 .graph-card {
-    width: 700px;
+    width: 500px;
     height: 350px;
     margin: 15px;
 
@@ -26,4 +26,22 @@
 .info-cards-container {
     display: flex;
     justify-content: space-around;
+}
+.graph-card-full {
+    width: 100%;
+    height: 850px;
+    margin-left: 10px;
+
+}
+.one-line-graph {
+    margin-left: 10px;
+}
+.graph-container-full {
+    height: 400px;
+    background-color: #EAE9F4;
+    padding: 10px;
+    border-radius: 0px 0px 22px 22px;
+}
+.dashboard-page {
+    display: flex;
 }

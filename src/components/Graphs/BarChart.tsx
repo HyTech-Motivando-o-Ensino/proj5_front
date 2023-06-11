@@ -1,6 +1,11 @@
 import { ResponsiveBar } from "@nivo/bar"
 
-const BarChart = (props: any) => {
+interface BarChartProps {
+    data: any;
+    xName: string;
+    yName: string;
+}
+const BarChart = (props: BarChartProps) => {
     return (
         <ResponsiveBar
             data={props.data}
