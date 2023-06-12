@@ -5,13 +5,13 @@ import iconProduction from '../../assets/icon-production.svg'
 import iconAdd from '../../assets/icon-add.svg'
 import iconPermission from '../../assets/icon-permission.svg'
 import iconDownload from '../../assets/icon-download.svg'
-
+import LogoIcon from '../../assets/SciCESAR.svg';
 const Sidebar = () => {
 
     return (
 
         <div className="sidebar">
-            <p className="text1">Sci<label className="text2">CESAR</label></p>
+            <img src={LogoIcon} className="text1" alt="" />
             <div className="mark">
                 <button className="button-dashboard">
                     <img src={iconDashboard}></img>
